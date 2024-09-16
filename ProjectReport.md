@@ -17,7 +17,7 @@ Check the rank of the processor with Get_Rank()
 
       else:
           Send null to processor (rank+1)
-'''
+```
 
 Using the send and receive methods and checking the rank of the processor at hand rectifies the order in which the processors take action in the script.
 
