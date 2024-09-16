@@ -11,6 +11,10 @@ Check the rank of the processor with Get_Rank()
   else:
       Receive null value from processor (rank-1) using the recv method
       Print processor rank
-      Send null to processor (rank+1)
-  if rank == size - 1:
-      Print processor rank and finalize the script
+
+      if rank == size - 1:
+          Print processor rank and finalize the script
+
+      else:
+          Send null to processor (rank+1)
+
