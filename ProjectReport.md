@@ -19,6 +19,6 @@ Check the rank of the processor with Get_Rank()
           Send null to processor (rank+1)
 ```
 
-Using the send and receive methods and checking the rank of the processor at hand rectifies the order in which the processors take action in the script.
+Using the send and receive methods and checking the rank of the processor at hand rectifies the order in which the processors take action in the script. An output of the code with 13 processors (mpiexec -n 13 python Question-1.py) can be seen in the Question-1.log file or run locally.
 
 Thanks for reading!
