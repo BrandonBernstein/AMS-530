@@ -13,7 +13,7 @@ Check the rank of the processor with Get_Rank()
       Print processor rank
 
       if rank == size - 1:
-          Print processor rank and finalize the script
+          Finalize the script
 
       else:
           Send null to processor (rank+1)
