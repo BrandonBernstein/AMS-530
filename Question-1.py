@@ -38,6 +38,7 @@ else:
         comm.send(None, dest=rank + 1)
 
     if rank == (size - 1):
-        MPI.Finalize()
         print("Processed Finalized")
         logger.info("Processed Finalized\n")
+
+MPI.Finalize()
